@@ -1,0 +1,424 @@
+2019:03:19 16:45:45.652 INFO  --- [restartedMain] c.w.photo.PhotoCommonApiApplication : Starting PhotoCommonApiApplication on DESKTOP-0L7RB2T with PID 7396 (C:\STS\workspace\riders-photo-schedule\api\bin\main started by user in C:\STS\workspace\riders-photo-schedule\api) 
+2019:03:19 16:45:45.658 INFO  --- [restartedMain] c.w.photo.PhotoCommonApiApplication : The following profiles are active: local 
+2019:03:19 16:45:45.751 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019:03:19 16:45:45.752 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019:03:19 16:45:46.516 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019:03:19 16:45:46.579 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 1 repository interfaces. 
+2019:03:19 16:45:47.131 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8552d56f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019:03:19 16:45:47.591 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 3334 (http) 
+2019:03:19 16:45:47.619 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2019:03:19 16:45:47.620 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2019:03:19 16:45:47.629 INFO  --- [restartedMain] o.a.c.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\STS\tools\java1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\유진IT서비스\Utils\Putty0.70\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\STS\tools\gradle-5.2.1\bin;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\user\AppData\Local\atom\bin;C:\Users\user\AppData\Roaming\npm;.] 
+2019:03:19 16:45:47.771 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2019:03:19 16:45:47.772 INFO  --- [restartedMain] o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 2018 ms 
+2019:03:19 16:45:47.967 INFO  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019:03:19 16:45:48.169 INFO  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate Core {5.3.7.Final} 
+2019:03:19 16:45:48.171 INFO  --- [restartedMain] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found 
+2019:03:19 16:45:48.401 INFO  --- [restartedMain] o.h.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+2019:03:19 16:45:49.383 INFO  --- [restartedMain] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2019:03:19 16:45:50.008 INFO  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019:03:19 16:45:50.051 INFO  --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2019:03:19 16:45:50.617 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : [PotalConfig]===================================================================== 
+2019:03:19 16:45:50.618 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : com.mysql.cj.jdbc.DriverphotoDriverClassName 
+2019:03:19 16:45:50.618 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : jdbc:mysql://106.10.37.138:3306/bmtest?allowMultiQueries=true&serverTimezone=UTC&characterEncoding=UTF-8photoUrl 
+2019:03:19 16:45:50.618 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : bmtestphotoUsername 
+2019:03:19 16:45:50.619 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : bmtest123photoPassword 
+2019:03:19 16:45:50.619 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : nonePotalddlAuto 
+2019:03:19 16:45:50.619 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : org.hibernate.dialect.MySQL5DialectPotaldialect 
+2019:03:19 16:45:50.619 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : ================================================================================== 
+2019:03:19 16:45:50.771 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63ab3173, org.springframework.security.web.context.SecurityContextPersistenceFilter@72289e78, org.springframework.security.web.header.HeaderWriterFilter@224aec4f, org.springframework.security.web.authentication.logout.LogoutFilter@7912be41, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@33ea4eb4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@122e13c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8b21d12, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74e8f5c7, org.springframework.security.web.session.SessionManagementFilter@4141c881, org.springframework.security.web.access.ExceptionTranslationFilter@3f504787, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b433c44] 
+2019:03:19 16:45:50.966 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2019:03:19 16:45:51.009 WARN  --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2019:03:19 16:45:51.388 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 3334 (http) with context path '' 
+2019:03:19 16:45:51.391 INFO  --- [restartedMain] c.w.photo.PhotoCommonApiApplication : Started PhotoCommonApiApplication in 6.421 seconds (JVM running for 7.882) 
+2019:03:19 16:46:32.435 INFO  --- [http-nio-3334-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019:03:19 16:46:32.435 INFO  --- [http-nio-3334-exec-1] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet' 
+2019:03:19 16:46:32.443 INFO  --- [http-nio-3334-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in 7 ms 
+2019:03:19 16:46:32.907 INFO  --- [http-nio-3334-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator : HHH000397: Using ASTQueryTranslatorFactory 
+2019:03:19 16:52:56.329 INFO  --- [RMI TCP Connection(13)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested. 
+2019:03:19 16:52:56.333 INFO  --- [RMI TCP Connection(13)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2019:03:19 16:52:56.334 INFO  --- [RMI TCP Connection(13)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2019:03:19 16:54:31.821 INFO  --- [restartedMain] c.woowa.photo.RidersApiApplication : Starting RidersApiApplication on DESKTOP-0L7RB2T with PID 22440 (C:\STS\workspace\riders-photo-schedule\api\bin\main started by user in C:\STS\workspace\riders-photo-schedule\api) 
+2019:03:19 16:54:31.827 INFO  --- [restartedMain] c.woowa.photo.RidersApiApplication : The following profiles are active: local 
+2019:03:19 16:54:31.882 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019:03:19 16:54:31.882 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019:03:19 16:54:32.542 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019:03:19 16:54:32.605 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 1 repository interfaces. 
+2019:03:19 16:54:33.154 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd4c33f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019:03:19 16:54:33.538 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 3334 (http) 
+2019:03:19 16:54:33.564 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2019:03:19 16:54:33.565 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2019:03:19 16:54:33.572 INFO  --- [restartedMain] o.a.c.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\STS\tools\java1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\유진IT서비스\Utils\Putty0.70\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\STS\tools\gradle-5.2.1\bin;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\user\AppData\Local\atom\bin;C:\Users\user\AppData\Roaming\npm;.] 
+2019:03:19 16:54:33.727 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2019:03:19 16:54:33.728 INFO  --- [restartedMain] o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 1846 ms 
+2019:03:19 16:54:33.914 INFO  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019:03:19 16:54:34.119 INFO  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate Core {5.3.7.Final} 
+2019:03:19 16:54:34.121 INFO  --- [restartedMain] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found 
+2019:03:19 16:54:34.265 INFO  --- [restartedMain] o.h.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+2019:03:19 16:54:35.230 INFO  --- [restartedMain] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2019:03:19 16:54:35.780 INFO  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019:03:19 16:54:35.817 INFO  --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2019:03:19 16:54:36.386 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : [PotalConfig]===================================================================== 
+2019:03:19 16:54:36.387 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : com.mysql.cj.jdbc.DriverphotoDriverClassName 
+2019:03:19 16:54:36.387 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : jdbc:mysql://106.10.37.138:3306/bmtest?allowMultiQueries=true&serverTimezone=UTC&characterEncoding=UTF-8photoUrl 
+2019:03:19 16:54:36.388 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : bmtestphotoUsername 
+2019:03:19 16:54:36.388 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : bmtest123photoPassword 
+2019:03:19 16:54:36.388 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : nonePotalddlAuto 
+2019:03:19 16:54:36.389 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : org.hibernate.dialect.MySQL5DialectPotaldialect 
+2019:03:19 16:54:36.389 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : ================================================================================== 
+2019:03:19 16:54:36.551 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@285616b4, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c4bd95c, org.springframework.security.web.header.HeaderWriterFilter@800eef3, org.springframework.security.web.authentication.logout.LogoutFilter@b1391b5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@40bea05a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@529aa2af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62d00447, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e1853b, org.springframework.security.web.session.SessionManagementFilter@149de087, org.springframework.security.web.access.ExceptionTranslationFilter@660e007e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@353961a6] 
+2019:03:19 16:54:36.765 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2019:03:19 16:54:36.818 WARN  --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2019:03:19 16:54:37.274 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 3334 (http) with context path '' 
+2019:03:19 16:54:37.277 INFO  --- [restartedMain] c.woowa.photo.RidersApiApplication : Started RidersApiApplication in 6.041 seconds (JVM running for 7.325) 
+2019:03:19 16:54:41.193 INFO  --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested. 
+2019:03:19 16:54:41.197 INFO  --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2019:03:19 16:54:41.200 INFO  --- [RMI TCP Connection(2)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2019:03:19 16:58:08.567 INFO  --- [restartedMain] c.woowa.photo.RidersApiApplication : Starting RidersApiApplication on DESKTOP-0L7RB2T with PID 12144 (C:\STS\workspace\riders-photo-schedule\api\bin\main started by user in C:\STS\workspace\riders-photo-schedule\api) 
+2019:03:19 16:58:08.572 INFO  --- [restartedMain] c.woowa.photo.RidersApiApplication : The following profiles are active: local 
+2019:03:19 16:58:08.622 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019:03:19 16:58:08.622 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019:03:19 16:58:09.241 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019:03:19 16:58:09.303 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 1 repository interfaces. 
+2019:03:19 16:58:09.830 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$90879e72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019:03:19 16:58:10.201 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 3334 (http) 
+2019:03:19 16:58:10.224 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2019:03:19 16:58:10.225 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2019:03:19 16:58:10.232 INFO  --- [restartedMain] o.a.c.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\STS\tools\java1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\유진IT서비스\Utils\Putty0.70\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\STS\tools\gradle-5.2.1\bin;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\user\AppData\Local\atom\bin;C:\Users\user\AppData\Roaming\npm;.] 
+2019:03:19 16:58:10.375 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2019:03:19 16:58:10.376 INFO  --- [restartedMain] o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 1754 ms 
+2019:03:19 16:58:10.541 INFO  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019:03:19 16:58:10.724 INFO  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate Core {5.3.7.Final} 
+2019:03:19 16:58:10.726 INFO  --- [restartedMain] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found 
+2019:03:19 16:58:10.870 INFO  --- [restartedMain] o.h.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+2019:03:19 16:58:11.794 INFO  --- [restartedMain] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2019:03:19 16:58:12.378 INFO  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019:03:19 16:58:12.418 INFO  --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2019:03:19 16:58:12.658 WARN  --- [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 's3FileController' defined in file [C:\STS\workspace\riders-photo-schedule\api\bin\main\com\woowa\photo\service\file\S3FileController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 's3FileService': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'cloud.aws.credentials.accessKey' in value "${cloud.aws.credentials.accessKey}" 
+2019:03:19 16:58:12.659 INFO  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2019:03:19 16:58:12.662 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Stopping service [Tomcat] 
+2019:03:19 16:58:12.673 INFO  --- [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2019:03:19 16:58:12.683 ERROR --- [restartedMain] o.s.boot.SpringApplication : Application run failed 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 's3FileController' defined in file [C:\STS\workspace\riders-photo-schedule\api\bin\main\com\woowa\photo\service\file\S3FileController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 's3FileService': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'cloud.aws.credentials.accessKey' in value "${cloud.aws.credentials.accessKey}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.woowa.photo.RidersApiApplication.main(RidersApiApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 's3FileService': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'cloud.aws.credentials.accessKey' in value "${cloud.aws.credentials.accessKey}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'cloud.aws.credentials.accessKey' in value "${cloud.aws.credentials.accessKey}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1188)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 36 common frames omitted
+2019:03:19 17:00:14.767 INFO  --- [restartedMain] c.woowa.photo.RidersApiApplication : Starting RidersApiApplication on DESKTOP-0L7RB2T with PID 14380 (C:\STS\workspace\riders-photo-schedule\api\bin\main started by user in C:\STS\workspace\riders-photo-schedule\api) 
+2019:03:19 17:00:14.773 INFO  --- [restartedMain] c.woowa.photo.RidersApiApplication : The following profiles are active: local 
+2019:03:19 17:00:14.830 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019:03:19 17:00:14.830 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019:03:19 17:00:15.451 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019:03:19 17:00:15.513 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 1 repository interfaces. 
+2019:03:19 17:00:16.033 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$432a6e89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019:03:19 17:00:16.432 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 3334 (http) 
+2019:03:19 17:00:16.457 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2019:03:19 17:00:16.457 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2019:03:19 17:00:16.465 INFO  --- [restartedMain] o.a.c.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\STS\tools\java1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\유진IT서비스\Utils\Putty0.70\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\STS\tools\gradle-5.2.1\bin;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\user\AppData\Local\atom\bin;C:\Users\user\AppData\Roaming\npm;.] 
+2019:03:19 17:00:16.618 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2019:03:19 17:00:16.618 INFO  --- [restartedMain] o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 1787 ms 
+2019:03:19 17:00:16.787 INFO  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019:03:19 17:00:16.975 INFO  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate Core {5.3.7.Final} 
+2019:03:19 17:00:16.977 INFO  --- [restartedMain] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found 
+2019:03:19 17:00:17.125 INFO  --- [restartedMain] o.h.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+2019:03:19 17:00:18.136 INFO  --- [restartedMain] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2019:03:19 17:00:18.719 INFO  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019:03:19 17:00:18.758 INFO  --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2019:03:19 17:00:19.297 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : [PotalConfig]===================================================================== 
+2019:03:19 17:00:19.298 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : com.mysql.cj.jdbc.DriverphotoDriverClassName 
+2019:03:19 17:00:19.298 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : jdbc:mysql://106.10.37.138:3306/bmtest?allowMultiQueries=true&serverTimezone=UTC&characterEncoding=UTF-8photoUrl 
+2019:03:19 17:00:19.299 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : bmtestphotoUsername 
+2019:03:19 17:00:19.299 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : bmtest123photoPassword 
+2019:03:19 17:00:19.299 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : nonePotalddlAuto 
+2019:03:19 17:00:19.299 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : org.hibernate.dialect.MySQL5DialectPotaldialect 
+2019:03:19 17:00:19.299 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : ================================================================================== 
+2019:03:19 17:00:19.444 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c90350, org.springframework.security.web.context.SecurityContextPersistenceFilter@5cd7aa06, org.springframework.security.web.header.HeaderWriterFilter@10e495c3, org.springframework.security.web.authentication.logout.LogoutFilter@4bc97a5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3c41d166, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5471d488, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b152a20, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38180c58, org.springframework.security.web.session.SessionManagementFilter@2a8e6a79, org.springframework.security.web.access.ExceptionTranslationFilter@32930d80, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@57ff4167] 
+2019:03:19 17:00:19.639 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2019:03:19 17:00:19.682 WARN  --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2019:03:19 17:00:20.073 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 3334 (http) with context path '' 
+2019:03:19 17:00:20.076 INFO  --- [restartedMain] c.woowa.photo.RidersApiApplication : Started RidersApiApplication in 5.92 seconds (JVM running for 7.167) 
+2019:03:19 17:00:48.045 INFO  --- [http-nio-3334-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019:03:19 17:00:48.046 INFO  --- [http-nio-3334-exec-1] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet' 
+2019:03:19 17:00:48.054 INFO  --- [http-nio-3334-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in 7 ms 
+2019:03:19 17:00:48.558 INFO  --- [http-nio-3334-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator : HHH000397: Using ASTQueryTranslatorFactory 
+2019:03:19 17:01:11.992 ERROR --- [http-nio-3334-exec-6] c.woowa.photo.common.CommonService : NoSuchMethodException :: {} 
+java.lang.NoSuchMethodException: java.lang.Class.setResultCode(java.lang.String)
+	at java.lang.Class.getMethod(Class.java:1786)
+	at com.woowa.photo.common.CommonService.setResultModel(CommonService.java:57)
+	at com.woowa.photo.service.photographer.PhotoGrapherService.createPhotoGrapherMaster(PhotoGrapherService.java:81)
+	at com.woowa.photo.service.photographer.PhotoGrapherController.createPhotoGrapherMaster(PhotoGrapherController.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019:03:19 17:01:12.006 ERROR --- [http-nio-3334-exec-6] o.a.c.c.C.[.[.[.[dispatcherServlet] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.lang.Class cannot be cast to com.woowa.photo.entity.PhotoGrapherMaster] with root cause 
+java.lang.ClassCastException: java.lang.Class cannot be cast to com.woowa.photo.entity.PhotoGrapherMaster
+	at com.woowa.photo.service.photographer.PhotoGrapherService.createPhotoGrapherMaster(PhotoGrapherService.java:81)
+	at com.woowa.photo.service.photographer.PhotoGrapherController.createPhotoGrapherMaster(PhotoGrapherController.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019:03:19 17:03:20.251 INFO  --- [RMI TCP Connection(9)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested. 
+2019:03:19 17:03:20.254 INFO  --- [RMI TCP Connection(9)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2019:03:19 17:03:20.256 INFO  --- [RMI TCP Connection(9)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2019:03:19 17:24:47.983 INFO  --- [restartedMain] c.woowa.photo.RidersApiApplication : Starting RidersApiApplication on DESKTOP-0L7RB2T with PID 25192 (C:\STS\workspace\riders-photo-schedule\api\bin\main started by user in C:\STS\workspace\riders-photo-schedule\api) 
+2019:03:19 17:24:47.995 INFO  --- [restartedMain] c.woowa.photo.RidersApiApplication : The following profiles are active: local 
+2019:03:19 17:24:48.078 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019:03:19 17:24:48.079 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2019:03:19 17:24:49.259 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019:03:19 17:24:49.389 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118ms. Found 1 repository interfaces. 
+2019:03:19 17:24:50.324 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$615dc59c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019:03:19 17:24:51.187 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 3334 (http) 
+2019:03:19 17:24:51.246 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2019:03:19 17:24:51.248 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2019:03:19 17:24:51.261 INFO  --- [restartedMain] o.a.c.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\STS\tools\java1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\유진IT서비스\Utils\Putty0.70\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\STS\tools\gradle-5.2.1\bin;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\user\AppData\Local\atom\bin;C:\Users\user\AppData\Roaming\npm;.] 
+2019:03:19 17:24:51.541 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2019:03:19 17:24:51.541 INFO  --- [restartedMain] o.s.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3461 ms 
+2019:03:19 17:24:52.082 INFO  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019:03:19 17:24:52.381 INFO  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate Core {5.3.7.Final} 
+2019:03:19 17:24:52.386 INFO  --- [restartedMain] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found 
+2019:03:19 17:24:52.712 INFO  --- [restartedMain] o.h.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+2019:03:19 17:24:54.784 INFO  --- [restartedMain] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2019:03:19 17:24:55.867 INFO  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019:03:19 17:24:55.943 INFO  --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2019:03:19 17:24:56.890 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : [PotalConfig]===================================================================== 
+2019:03:19 17:24:56.891 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : com.mysql.cj.jdbc.DriverphotoDriverClassName 
+2019:03:19 17:24:56.891 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : jdbc:mysql://106.10.37.138:3306/bmtest?allowMultiQueries=true&serverTimezone=UTC&characterEncoding=UTF-8photoUrl 
+2019:03:19 17:24:56.891 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : bmtestphotoUsername 
+2019:03:19 17:24:56.892 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : bmtest123photoPassword 
+2019:03:19 17:24:56.892 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : nonePotalddlAuto 
+2019:03:19 17:24:56.892 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : org.hibernate.dialect.MySQL5DialectPotaldialect 
+2019:03:19 17:24:56.892 INFO  --- [restartedMain] c.w.p.config.PhotoDataSourceConfig : ================================================================================== 
+2019:03:19 17:24:57.102 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a7b2464, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e0088b1, org.springframework.security.web.header.HeaderWriterFilter@1e388ad7, org.springframework.security.web.authentication.logout.LogoutFilter@6d4dd5a1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1f3571e1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@89cad6d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@227f309e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f961222, org.springframework.security.web.session.SessionManagementFilter@526a07c, org.springframework.security.web.access.ExceptionTranslationFilter@17a756d4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@71df8ac7] 
+2019:03:19 17:24:57.451 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2019:03:19 17:24:57.543 WARN  --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2019:03:19 17:24:58.109 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 3334 (http) with context path '' 
+2019:03:19 17:24:58.115 INFO  --- [restartedMain] c.woowa.photo.RidersApiApplication : Started RidersApiApplication in 11.238 seconds (JVM running for 13.303) 
