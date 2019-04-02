@@ -9,3 +9,8 @@ ReactDOM.render(
   document.getElementById('root') as HTMLElement
 );
 registerServiceWorker();
+if (module.hot) {
+  module.hot.accept('./App', () => {
+    ReactDOM.render(<App />, document.getElementById('root') as HTMLElement);
+  });
+}
